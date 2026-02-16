@@ -1,0 +1,52 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "@type": "SoftwareSourceCode",
+    "license": {
+        "name": "Apache License 2.0",
+        "url": "https://raw.githubusercontent.com/SoftwareUnderstanding/auto-papers-with-artifacts/main/LICENSE",
+        "identifier": "https://spdx.org/licenses/Apache-2.0",
+        "spdx_id": "Apache-2.0"
+    },
+    "codeRepository": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts",
+    "issueTracker": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts/issues",
+    "dateCreated": "2025-02-03",
+    "dateModified": "2025-05-15",
+    "downloadUrl": "https://github.com/SoftwareUnderstanding/auto-papers-with-artifacts/releases",
+    "name": "auto-papers-with-artifacts",
+    "programmingLanguage": [
+        "TypeScript",
+        "JavaScript"
+    ],
+    "softwareRequirements": [
+        "react@^19.0.0",
+        "react-dom@^19.0.0",
+        "@eslint/js@^9.21.0",
+        "@types/react@^19.0.10",
+        "@types/react-dom@^19.0.4",
+        "@vitejs/plugin-react@^4.3.4",
+        "autoprefixer@^10.4.20",
+        "eslint@^9.21.0",
+        "eslint-plugin-react-hooks@^5.0.0",
+        "eslint-plugin-react-refresh@^0.4.19",
+        "globals@^15.15.0",
+        "postcss@^8.5.3",
+        "tailwindcss@^3.4.1",
+        "typescript@~5.7.2",
+        "typescript-eslint@^8.24.1",
+        "vite@^6.2.0",
+        "Navigate to the project directory and install the required dependencies:  ```bash cd auto-papers-with-artifacts npm install ```"
+    ],
+    "buildInstructions": [
+        "https://raw.githubusercontent.com/SoftwareUnderstanding/auto-papers-with-artifacts/main/README.md"
+    ],
+    "author": [
+        {
+            "@type": "Organization",
+            "@id": "https://github.com/SoftwareUnderstanding"
+        }
+    ],
+    "readme": "https://raw.githubusercontent.com/SoftwareUnderstanding/auto-papers-with-artifacts/main/README.md",
+    "description": [
+        "A repository to automatically maintain a list of papers and their corresponding public artifacts"
+    ]
+}
